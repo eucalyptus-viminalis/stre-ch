@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SETTINGS</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="spark!y">
+	<meta name="description" content="a spark!y creation">
+	<meta property="og:title" content="SETTINGS">
+	<meta property="og:description" content="SETTINGS">
+	<meta property="og:image" content="/some-image.png">
+	<meta property="og:url" content="/this-page.html">
+	<meta property="og:site_name" content="SETTINGS">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image:alt" content="image description">
+
+	<link href="/styles/reset.css" rel="stylesheet">
+	<link href="/styles/style.css" rel="stylesheet">
+	<link href="/styles/settings.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+    <div class="div-full-frame settings-page">
+        <section class="section-settings">
+			SETTINGS
+			<form>
+				<fieldset>
+					<legend>NOTIFICATIONS</legend>
+					<label for="enable-notif">
+						<button type="button" id="enable-notif" name="enable-notif" class="btn-notif-enable">ENABLE</button>
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend>STRE-CHS</legend>
+					<label class="container" for="checkbox-neck">NECK
+						<input id="checkbox-neck" name="checkbox-neck" type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container" for="checkbox-shoulders">SHOULDERS
+						<input id="checkbox-shoulders" name="checkbox-shoulders" type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container" for="checkbox-fingers">FINGERS
+						<input id="checkbox-fingers" name="checkbox-fingers" type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container" for="checkbox-legs">LEGS
+						<input id="checkbox-legs" name="checkbox-legs" type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container" for="checkbox-arms">ARMS
+						<input id="checkbox-arms" name="checkbox-arms" type="checkbox">
+						<span class="checkmark"></span>
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend>ME</legend>
+					<label>
+						<input placeholder="current_name" type="text">
+					</label>
+					<label for="change-name">
+						<button id="change-name" name="change-name" class="btn-change-name" type="button">CHANGE NAME</button>
+					</label>
+					
+				</fieldset>
+			</form>
+			<div class="div-settings-saving-progress">
+				Saving changes... (animate somethin on change)
+			</div>
+		</section>
+	</div>
+	<!-- SOUNDS -->
+    <audio name="AC" src="/sounds/ac.wav"></audio>
+    <audio name="alpha" src="/sounds/pop8.flac"></audio>
+    <audio name="DEL" src="/sounds/pop1.ogg"></audio>
+    <audio name="error" src="/sounds/beep-scifi.wav"></audio>
+    <audio name="fail" src="/sounds/fail.wav"></audio>
+    <audio name="off" src="/sounds/off.wav"></audio>
+    <audio name="off2" src="/sounds/off2.wav"></audio>
+    <audio name="on" src="/sounds/on.wav"></audio>
+    <audio name="on2" src="/sounds/on2.wav"></audio>
+    <audio name="op" src="/sounds/click3.wav"></audio>
+    <audio name="num" src="/sounds/pop8.flac"></audio>
+    <audio name="replay" src="/sounds/pop8.flac"></audio>
+    <audio name="shiftup" src="/sounds/powerup.wav"></audio>
+    <audio name="shiftdn" src="/sounds/lose.wav"></audio>
+    <audio name="spiral" src="/sounds/chime-zeuss.wav"></audio>
+    <audio name="chime" src="/sounds/chime-jgreer.mp3"></audio>
+	<script src="script.js"></script>
+</body>
+</html>

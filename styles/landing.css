@@ -1,0 +1,64 @@
+/* REGO BUTTON */
+.section-rego {
+    background: none;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-rego {
+    background: none;
+    position: relative;
+    color: var(--fg);
+    display: block;
+    margin: 0 auto;
+    width: 50vw;
+    height: 30vh;
+    border: 0.5rem solid var(--fg);
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    font-size: 3rem;
+    transition: transform 0.5s;
+}
+.btn-rego:hover {
+    transform: scale(3,1);
+}
+/* REGO FORM */
+.popup-rego {
+    position: fixed;
+    text-align: justify;
+    font-size: 1rem;
+    z-index: 1000;
+    border: 0.1rem solid rgb(36, 3, 3);
+    border-radius: 5%;
+    padding: 0.5rem;
+    background-color: var(--fg2);
+    top: 50%;
+    left: 50%;
+    height: 30vw;
+    transform: translateY(-50%) translateX(-50%);
+    animation: stretch-100vw 7s infinite;
+}
+.form-rego {
+    display: flex;
+    flex-direction: column;
+}
+.btn-create-profile {
+    margin-bottom: 0.5rem;
+}
+/* GIFS */
+.img-gif1 {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+@keyframes stretch-100vw {
+    0%, 50%, 100% {
+        width: 96%;
+    }
+    25%, 75% {
+        width: 99%;
+    }
+}
